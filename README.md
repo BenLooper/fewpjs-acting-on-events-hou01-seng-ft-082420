@@ -149,14 +149,7 @@ let dodger = document.getElementById("dodger");
 and work on that function:
 
 ```javascript
-function moveDodgerLeft() {
-  let leftNumbers = dodger.style.left.replace("px", "");
-  let left = parseInt(leftNumbers, 10);
 
-  if (left > 0) {
-    dodger.style.left = `${left - 1}px`;
-  }
-}
 ```
 
 We're doing essentially the same as above, but we first ensure that the dodger's
